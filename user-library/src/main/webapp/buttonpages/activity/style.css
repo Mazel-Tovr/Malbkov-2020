@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    max-width: 1070px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .header-list {
+  
+    display: flex;
+    padding: inherit;
+  }
+  
+  .header-list li {
+    font-size: 20px;
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  .header-profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .header-profile img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .header-profile span {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .table {
+      width: 100%;;
+      margin-top: 20px;
+      text-align: center;
+  }
+  .form-style
+  {
+    margin: auto;
+    width: 50%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .form-style div
+  {
+    display: flex;
+    justify-content: space-between;
+    width: 14em;
+    padding-bottom: 7px;
+  }
+  .submit-button
+  {
+    margin: auto;
+    padding: 1em 1em;
+  }
+  .form
+  {
+    padding-top: 2em;
+  }
+  .title
+  {
+    margin: auto;
+    width: 30%;
+  }

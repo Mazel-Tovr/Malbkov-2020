@@ -1,0 +1,28 @@
+.registration-form
+{
+    width: 20em;
+    margin: auto;
+    font-size: large;
+}
+.title
+{
+    text-align: center;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+}
+.form div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button
+{
+    width: 10em;
+    margin-top: 10px;
+}
+
